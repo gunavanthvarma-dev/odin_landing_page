@@ -5,10 +5,14 @@
     height: 1000px;
     flex-direction: column;
     align-items: center;
-    background-color: #1f2937;
     height: 400px;
     width: 2150px;
 
+}
+
+#box1
+{
+    background-color: #1f2937;
 }
 
 #img-1
@@ -59,7 +63,7 @@
 {
     font-size: 48px;
     color: #f9faf8;
-    font-weight:bolder;
+    font-weight:800;
     width: 300px;
     margin-left: 20px;
     margin-bottom: 0px;
@@ -79,7 +83,7 @@
 
 button
 {
-    background-color:rgb(50, 47, 194);
+    background-color: #3882f6;
     border-radius: 10px;
     color: #f9faf8;
     width: 70px;
@@ -87,3 +91,49 @@ button
     margin-left: 20px;
 }
 
+#box2
+{
+    background-color: #f9faf8;
+   /* justify-content: center;*/
+    
+}
+
+#some
+{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 800;
+    margin-left: -230px;
+    margin-bottom: 100px;
+}
+
+#box2-inner
+{
+    display: flex;
+    margin-left: -200px;
+}
+.innerboxes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px;
+    border-color: black;
+
+}
+
+.innerboxes img
+{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    
+}
+
+.innerboxes p
+{
+    font-size: 18px;
+    color: #1f2937;
+
+}
