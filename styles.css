@@ -7,12 +7,14 @@
     align-items: center;
     height: 400px;
     width: 2150px;
+    flex: 1 1 0;
 
 }
 
 #box1
 {
     background-color: #1f2937;
+    flex: 1 1 0;
 }
 
 #img-1
@@ -208,4 +210,29 @@ button
     width: 100px;
     height: 30px;
     
+}
+
+#footer
+{
+    justify-content: center;
+    background-color: #1f2937;
+    height: 500px;
+    align-items: center;
+    
+}
+
+#footer p
+{
+    color: #f9faf8;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -250px;
+    font-size: 26px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
 }
